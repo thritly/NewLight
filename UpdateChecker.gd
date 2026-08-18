@@ -142,7 +142,7 @@ func is_newer_version(latest, current) -> bool:
 # ------------------------------------------------------------
 func show_update_info(version, url, size):
 	var size_mb = size / (1024.0 * 1024.0)
-	var msg = "发现新版本 v%s！\n文件大小: %.2f MB\n下载地址: %s" % [version, size_mb, url]
+	var msg = "发现新版本 v%s\n文件大小: %.2f MB\n下载地址: %s" % [version, size_mb, url]
 	print(msg)
 
 	var dialog = AcceptDialog.new()
