@@ -5,3 +5,9 @@
 *.import
 *.uid
 .editorconfig
+# C# 编译产物
+bin/
+obj/
+*.sln
+*.csproj
+*.tmp

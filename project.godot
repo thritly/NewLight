@@ -12,8 +12,8 @@ config_version=5
 
 config/name="New_Light"
 run/main_scene="uid://dkn257qqoco5"
-config/features=PackedStringArray("4.6", "Forward Plus")
-run/max_fps=60
+config/features=PackedStringArray("4.6", "C#", "Forward Plus")
+run/max_fps=30
 boot_splash/bg_color=Color(0, 0, 0, 0)
 boot_splash/show_image=false
 config/icon="res://icon.svg"
@@ -45,6 +45,7 @@ mouse_L={
 
 [physics]
 
+common/physics_ticks_per_second=30
 3d/physics_engine="Jolt Physics"
 
 [rendering]

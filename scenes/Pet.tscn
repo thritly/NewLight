@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dkn257qqoco5"]
 
-[ext_resource type="Script" uid="uid://c6c08pmnkja41" path="res://scripts/pet.gd" id="1_2ichq"]
+[ext_resource type="Script" uid="uid://bg1tpvnudfdlo" path="res://scripts/Pet.cs" id="1_7qp8y"]
 [ext_resource type="Texture2D" uid="uid://bairo8xchs3qa" path="res://assets/cat/cat-0.png" id="2_7qp8y"]
 [ext_resource type="Texture2D" uid="uid://dku6d04v0327" path="res://assets/katixiya/katixiya-0.png" id="2_rx3lj"]
 [ext_resource type="Texture2D" uid="uid://xo7r84kjgfk6" path="res://assets/katixiya/katixiya-1.png" id="3_3vlr1"]
@@ -108,7 +108,7 @@ size = Vector2(400, 317)
 
 [node name="Area2D" type="Area2D" unique_id=1877387269]
 position = Vector2(255, 289)
-script = ExtResource("1_2ichq")
+script = ExtResource("1_7qp8y")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=810349816]
 position = Vector2(-30.999992, -43.000008)
